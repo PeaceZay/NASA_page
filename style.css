@@ -1,0 +1,47 @@
+.container {
+   height: 550px;
+   width: 850px;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+ 
+  .centered {
+    
+    font-size: 100px ;
+    font-family: fantasy;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .main {
+    margin-top: 20px;
+    padding-top: 20px;
+    height:  324px;
+    width: 850px; 
+    display: inline-flex;
+     justify-content: center;
+     align-content: space-around;
+     border:lightgray 2px;
+     background: lightgray 
+     
+  }
+
+  .article1{
+      margin: 20px;
+  }
+
+  .article2{
+    margin: 20px;
+}
+
+.article3{
+    margin: 20px;
+}
+
+.message{
+    
+    height: 50px;
+}
