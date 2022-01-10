@@ -1,4 +1,4 @@
-.body{
+body{
 width: 850px;
     margin: 0 auto;
 
@@ -12,9 +12,11 @@ width: 850px;
     margin: 0 auto;
     margin-top: 20px;
     background-image: url(https://cdn.pixabay.com/photo/2011/12/14/12/11/astronaut-11080_960_720.jpg);
+    
     color: white
 
 }
+
 .nasa{
     font-family: 'Anton', sans-serif;
     position: absolute;
@@ -36,4 +38,6 @@ justify-content: space-between;
 }
 .message{
     height: 70px;
+    background-color: white;
+    
 }
