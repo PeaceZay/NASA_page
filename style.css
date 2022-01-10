@@ -1,47 +1,39 @@
-.container {
-   height: 550px;
-   width: 850px;
+.body{
+width: 850px;
+    margin: 0 auto;
+
+}
+.main{
+    font-size: 70px;
     position: relative;
     text-align: center;
-    color: white;
-  }
- 
-  .centered {
-    
-    font-size: 100px ;
-    font-family: fantasy;
+    width: 850px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-image: url(https://cdn.pixabay.com/photo/2011/12/14/12/11/astronaut-11080_960_720.jpg);
+    color: white
+
+}
+.nasa{
+    font-family: 'Anton', sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-
-  .main {
+}
+.section{
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    text-align: left;
+    height: 324px;
+    width: 810px;
+    margin: 0 auto;
     margin-top: 20px;
-    padding-top: 20px;
-    height:  324px;
-    width: 850px; 
-    display: inline-flex;
-     justify-content: center;
-     align-content: space-around;
-     border:lightgray 2px;
-     background: lightgray 
-     
-  }
-
-  .article1{
-      margin: 20px;
-  }
-
-  .article2{
-    margin: 20px;
+    padding: 20px;
+    background-color: lightgray;
+justify-content: space-between;
 }
-
-.article3{
-    margin: 20px;
-}
-
 .message{
-    
-    height: 50px;
+    height: 70px;
 }
